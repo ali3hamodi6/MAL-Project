@@ -21,7 +21,7 @@ public class InputFilereader {
          } catch (Exception e) {
 
              System.out.println(" Input file was not found ");
-             //e.printStackTrace();
+             e.printStackTrace();
          }
      }
 }
